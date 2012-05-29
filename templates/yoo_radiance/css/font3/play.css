@@ -1,0 +1,10 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span {
+	font-family: 'PlayRegular', sans-serif;
+	font-size: 15px;
+}
+
+.menu-dropdown .level1 .level1 span.title { line-height: 20px; }
+.menu-dropdown .level1 .level1 span.subtitle { margin-top: -4px; }

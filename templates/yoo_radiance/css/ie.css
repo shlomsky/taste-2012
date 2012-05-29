@@ -1,0 +1,55 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie.css);
+
+pre,
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download,
+table.zebra tbody tr.odd,
+table.calendar th,
+table.calendar tfoot td { background-color: #1c3f5b; }
+
+table.zebra tbody tr:nth-of-type(odd) { background-color: #1c3f5b; }
+
+form.box fieldset,
+#system .author-box,
+table.zebra tbody td,
+table.zebra tbody tr:first-child td,
+table.calendar,
+table.calendar th,
+table.calendar tfoot td { border-color: #224866; }
+
+.mod-dark,
+.system-dark #content { border: 1px solid #193d59; }
+
+.mod-light,
+.system-light #content {
+	border: 1px solid #2e6580;
+	border-top-color: #497b94;
+}
+
+/* System White */
+.system-white #content pre,
+.system-white #content .box-content,
+.system-white #content .box-note,
+.system-white #content .box-info,
+.system-white #content .box-warning,
+.system-white #content .box-hint,
+.system-white #content .box-download,
+.system-white #content table.zebra tbody tr.odd,
+.system-white #content table.calendar th,
+.system-white #content table.calendar tfoot td { background-color: #fbfbfc; }
+
+.system-white #content table.zebra tbody tr:nth-of-type(odd) { background-color: #fbfbfc; }
+
+.system-white #content form.box fieldset,
+.system-white #content #system .author-box,
+.system-white #content table.zebra tbody td,
+.system-white #content table.zebra tbody tr:first-child td,
+.system-white #content table.calendar,
+.system-white #content table.calendar th,
+.system-white #content table.calendar tfoot td { border-color: #ffffff; }

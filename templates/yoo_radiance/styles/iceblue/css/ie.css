@@ -1,0 +1,33 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../warp/css/ie.css);
+
+pre,
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download,
+table.zebra tbody tr.odd,
+table.calendar th,
+table.calendar tfoot td { background-color: #c6e3e7; }
+
+table.zebra tbody tr:nth-of-type(odd) { background-color: #c6e3e7; }
+
+form.box fieldset,
+#system .author-box,
+table.zebra tbody td,
+table.zebra tbody tr:first-child td,
+table.calendar,
+table.calendar th,
+table.calendar tfoot td { border-color: #ddeef1; }
+
+.mod-dark,
+.system-dark #content { border: 1px solid #c5e6ea; }
+
+.mod-light,
+.system-light #content {
+	border: 1px solid #d8f3f5;
+	border-top-color: #e0f7f7;
+}

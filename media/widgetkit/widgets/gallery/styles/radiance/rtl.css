@@ -1,0 +1,20 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * RTL Style Sheet
+ */
+
+.wk-slideshow-radiance > div:hover .prev {
+	right: 40px;
+	left: auto;
+	background-position: 0 -120px;
+}
+.wk-slideshow-radiance > div:hover .prev:hover { background-position: 0 -160px; }
+.wk-slideshow-radiance > div:hover .prev:active { background-position: 0 -200px; }
+.wk-slideshow-radiance > div:hover .next {
+	right: auto;
+	left: 40px;
+	background-position: 0 0;
+}
+.wk-slideshow-radiance > div:hover .next:hover { background-position: 0 -40px; }
+.wk-slideshow-radiance > div:hover .next:active { background-position: 0 -80px; }

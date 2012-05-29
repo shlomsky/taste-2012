@@ -1,0 +1,73 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Widgetkit Slideset: Radiance Style
+ */
+
+
+/* Navigation
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideset-radiance .nav { text-align: center; }
+
+.wk-slideset-radiance .nav li { display: inline-block; }
+.wk-slideset-radiance .nav.text li { margin-left: 40px; }
+
+.wk-slideset-radiance .nav li:first-child { margin-left: 0; }
+
+.wk-slideset-radiance .nav.icon span {
+	width: 15px;
+	height: 15px;
+	background: url(images/nav.png) 0 0 no-repeat;
+	overflow: hidden;
+}
+
+.wk-slideset-radiance .nav.icon span:hover { background-position: 0 -20px; }
+.wk-slideset-radiance .nav.icon span:active { background-position: 0 -40px; }
+.wk-slideset-radiance .nav.icon .active span { background-position: 0 -60px; }
+
+
+/* Buttons
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideset-radiance > div { position: relative; }
+
+.wk-slideset-radiance > div .next,
+.wk-slideset-radiance > div .prev {
+	top: 50%;
+	width: 26px;
+	height: 45px;
+	margin-top: -20px;
+	background: url(images/buttons.png);
+	background-repeat: no-repeat;
+}
+.wk-slideset-radiance > div .prev {
+	left: -50px;
+	background-position: 0 0;
+}
+.wk-slideset-radiance > div .prev:hover { background-position: 0 -50px; }
+.wk-slideset-radiance > div .prev:active { background-position: 0 -100px; }
+.wk-slideset-radiance > div .next {
+	right: -50px;
+	background-position: 0 -150px;
+}
+.wk-slideset-radiance > div .next:hover { background-position: 0 -200px; }
+.wk-slideset-radiance > div .next:active { background-position: 0 -250px; }
+
+
+/* Title
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideset-radiance .wk-content { 
+	margin-right: 20px;
+	text-align: left;
+}
+
+
+/* IE7 Fixes */
+.wk-ie7 .wk-slideset-radiance .nav li,
+.wk-ie7 .wk-slideset-radiance .nav span { display: inline; }
+.wk-ie7 .wk-slideset-radiance .nav span { zoom: 1; }
+
+.wk-ie7 .wk-slideset-radiance > div .prev { left: 0; }
+.wk-ie7 .wk-slideset-radiance > div .next { right: 0; }

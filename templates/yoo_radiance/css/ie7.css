@@ -1,0 +1,38 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie7.css);
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-sidebar a.level1,
+.menu-sidebar span.level1 { zoom: 1; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+ul.social-icons li {
+	display: inline;
+	width: 36px;
+	height: 38px;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+#searchbox input { line-height: 24px; }
+
+#searchbox { z-index: 11; }
+
+
+/* Custom
+----------------------------------------------------------------------------------------------------*/
+
+h2.dark-text {
+	margin: 0;
+	padding-top: 7px;
+}

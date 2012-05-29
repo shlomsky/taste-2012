@@ -1,0 +1,91 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/modules.css);
+
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	width: 39px;
+	height: 39px;
+	top: -10px;
+	right: -10px;
+	background: url(../images/module_badges.png) 0 0 no-repeat;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -40px; }
+.module .badge-new { background-position: 0 -80px; }
+.module .badge-free { background-position: 0 -120px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -30px; }
+.module .module-title .icon-mail { background-position: 0 -60px; }
+.module .module-title .icon-bubble { background-position: 0 -90px; }
+.module .module-title .icon-login { background-position: 0 -120px; }
+.module .module-title .icon-cart { background-position: 0 -150px; }
+
+
+/* Module Title
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title span.subtitle { font-size: 11px; }
+
+
+/* Module Type: Dark
+----------------------------------------------------------------------------------------------------*/
+
+.mod-dark,
+.system-dark #content {
+	padding: 15px;
+	border: 1px solid rgba(255,255,255,0.04);
+	border-radius: 4px;
+	background: url(../images/module_dark.png) 0 0 repeat;
+	background-clip: padding-box;
+}
+
+
+/* Module Type: Light
+----------------------------------------------------------------------------------------------------*/
+
+.mod-light,
+.system-light #content {
+	border-radius: 4px;
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.mod-light > div,
+.system-light #content > div {
+	padding: 15px;
+	border-radius: 3px;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+
+/* Module Type: Plain
+----------------------------------------------------------------------------------------------------*/
+
+.grid-h .mod-plain { padding: 10px 20px 10px 0; }
+
+.grid-v .mod-plain { padding: 20px 10px 0 0; }
+.grid-v:first-child .mod-plain { padding-top: 10px; }
+
+.sidebar-a-right #sidebar-a .grid-v .mod-plain,
+.sidebar-b-right #sidebar-b .grid-v .mod-plain {
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.mod-plain .badge { top: 10px; right: 10px; }

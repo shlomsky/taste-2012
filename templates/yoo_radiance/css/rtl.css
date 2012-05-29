@@ -1,0 +1,196 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/rtl.css);
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+nav#menu { float: left; }
+
+#footer { text-align: right; }
+
+#totop-scroller {
+	right: auto;
+	left: 0;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+.menu-dropdown li.level1 {
+	margin-right: 10px;
+	margin-left: 0px;
+}
+
+.menu-dropdown li.level1.parent .level1 {
+	padding-right: 0;
+	padding-left: 12px;
+	background-position: 0 0;
+}
+
+.menu-dropdown li.level1.parent .level1:hover,
+.menu-dropdown li.remain.parent .level1 { background-position: 0 -100px; }
+
+.menu-dropdown .level1 .level1 span.icon {
+	margin-left: 0;
+	margin-right: -5px;
+}
+.menu-dropdown .level1 .level1 span.icon + span,
+.menu-dropdown .level1 .level1 span.icon + span + span {
+	margin-left: 0;
+	margin-right: 25px;
+}
+
+.menu-dropdown .dropdown {
+	border-top-right-radius: 0;
+	border-top-left-radius: 3px;
+}
+
+.menu-dropdown:last-child > li:last-child .dropdown {
+	right: auto;
+	left: 0;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 0;
+}
+
+.menu-dropdown .column ul.level2 { background-position: 100% 0; }
+
+.menu-dropdown li.level2 .level2 span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.menu-dropdown li.level2 .level2 span.icon + span,
+.menu-dropdown li.level2 .level2 span.icon + span + span {
+	margin-left: 0;
+	margin-right: 39px;
+}
+
+.menu-dropdown a.level3 {
+	padding-right: 16px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+.menu-dropdown a.level3:hover { background-position: 100% -50px; }
+.menu-dropdown a.current.level3 { background-position: 100% -100px; } 
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar a.level1,
+.menu-sidebar span.level1 {
+	padding-right: 5px;
+	padding-left: 0;
+}
+
+.menu-sidebar li.parent .level1 > span { background-position: 0 0; }
+.menu-sidebar li.parent.active .level1 > span { background-position: 0 -100px; }
+
+.menu-sidebar ul.level2 ul {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.menu-sidebar .level2 a {
+	padding-right: 18px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+.menu-sidebar .level2 a:hover { background-position: 100% -50px; }
+.menu-sidebar .level2 a.current { background-position: 100% -100px; }
+
+.menu-sidebar span.icon {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+/* Line Menu */
+.menu-line li {
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 7px;
+	padding-right: 8px;
+	background-position: 100% 50%;
+}
+
+.menu-line li:first-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	right: auto;
+	left: -10px;
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* List Line Icon */
+ul.line-icon > li,
+ul.line-icon > li:first-child {
+	padding-right: 16px;
+	padding-left: 0;
+	background-position: 100% 0;
+}
+
+/* Check List */
+ul.check > li {
+	padding-left: 0;
+	padding-right: 30px;
+	background-position: 100% 0;
+}
+
+/* Definition Lists */
+dl.separator dd { border-width: 0 1px 0 0; }
+
+dl.separator dt:before {
+	right: auto;
+	left: -15px;
+}
+
+dl.separator dt:after {
+	right: auto;
+	left: -3px;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Item */
+#system .item header time {
+	position: absolute;
+	top: 1px;
+	right: 0;
+	left: auto;
+	margin: 0 0 0 10px;
+}
+
+#system .item time + h1.title,
+#system .item time + h1.title + p.meta {
+	margin-right: 52px;
+	margin-left: 0;
+}
+
+/* Search Box */
+#searchbox { padding: 0 5px 0 25px; }
+
+#searchbox .results {
+	right: auto;
+	left: -1px;
+}
+
+/* Breadcrumgs */
+.breadcrumbs a,
+.breadcrumbs > span {
+	padding-right: 0;
+	padding-left: 15px;
+	background-position: 0 50%;
+}

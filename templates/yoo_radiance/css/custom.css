@@ -1,0 +1,35 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+/* Custom Logo */
+#logo .custom-logo {
+	width: 200px;
+	height: 60px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+}
+
+/* Widgetkit: Frontpage Slideset */
+.wk-slideset-radiance .set article { width: 280px; }
+.wk-slideset-radiance .set article img { margin-right: 15px; }
+
+/* Frontpage Article Demo */
+.frontpage-main { position: relative; }
+
+.demo-bubble {
+	position: absolute;
+	width: 204px;
+}
+
+.demo-bubble h3 { margin: 0 0 4px 0; }
+
+.demo-bubble.top-left { top: 60px; left: 36px; }
+.demo-bubble.mid-left { top: 195px; left: 16px; }
+.demo-bubble.bottom-left { top: 330px; left: 36px; }
+.demo-bubble.top-right { top: 60px; right: 36px; }
+.demo-bubble.mid-right { top: 195px; right: 16px; }
+.demo-bubble.bottom-right { top: 330px; right: 36px; }
+
+h2.dark-text { margin: 7px 0 0 0; }

@@ -1,0 +1,234 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#header,
+#breadcrumbs,
+#content,
+#footer { margin: 10px; }
+
+#footer .module { margin: 0; }
+
+#headerbar { margin: 20px 0; }
+
+#headerbar #menu .module {
+	float: none;
+	max-width: auto;
+	margin-right: auto;
+}
+
+.wrapper { padding: 0 50px; }
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+body#page {
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+#page-bg {
+	background-position: 50% -500px;
+	background-repeat: no-repeat;
+}
+
+.radiance-presentation #page-bg {
+	min-height: 900px;
+	background-position: 50% 100px;
+}
+
+#toolbar {
+	padding: 0 0 10px 0;
+	background-position: 0 100%;
+	line-height: 24px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+#menu {
+	float: right;
+	margin-top: 25px;
+}
+
+#breadcrumbs {
+	margin-right: 0;
+	margin-bottom: 15px;
+	margin-left: 0;
+}
+
+.system-dark #breadcrumbs,
+.system-light #breadcrumbs,
+.system-white #content #breadcrumbs { margin-top: 0; }
+
+#footer {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	background-position: 0 0;
+	font-size: 12px;
+}
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 1;
+	width: 20px;
+	height: 21px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+#totop-scroller:hover { background-position: 0 -30px; }
+
+
+/* System White
+----------------------------------------------------------------------------------------------------*/
+
+.system-white #content {
+	padding: 15px;
+	border-radius: 4px;
+	background: #FDFDFF;
+	box-shadow: 0 8px 4px -4px rgba(0,0,0,0.3);
+	color: #555;
+	text-shadow: none;
+}
+
+.system-white #content hr { border-top-color: #d7d7d7; }
+
+.system-white #content ::-moz-selection { background: #2d2d2d; color: #fff; }
+.system-white #content ::selection { background: #2d2d2d; color: #fff; }
+
+.system-white #content h1,
+.system-white #content h3,
+.system-white #content .mod-light .module-title,
+.system-white #content form.box legend,
+.system-white #content #system .title a,
+.system-white #content #system .item header time { color: #424242; }
+
+.system-white #content form.style button,
+.system-white #content form.style input[type="button"] { color: #777777;}
+
+.system-white #content a.button-more a { color: #626262; }
+
+.system-white #content a,
+.system-white #content h2,
+.system-white #content em.box,
+.system-white #content #system .item header time { color: #666; }
+
+.system-white #content a:hover,
+.system-white #content h4,
+.system-white #content code,
+.system-white #content #system .title a:hover { color: #2d2d2d; }
+
+.system-white #content #system small,
+.system-white #content #system blockquote,
+.system-white #content table.zebra caption,
+.system-white #content form.style input,
+.system-white #content form.style textarea,
+.system-white #content form.style select,
+.system-white #content .comments-list .meta { color: #777777; }
+
+.system-white #content #system .pagination a:hover,
+.system-white #content #system .item > .links a:hover,
+.system-white #content #system span.highlight { background-color: #FFFFFF; }
+
+.system-white #content mark,
+.system-white #content ins,
+.system-white #content a.button-more:hover,
+.system-white #content form.style button:hover,
+.system-white #content form.style input[type="button"]:hover,
+.system-white #content form.style input:focus,
+.system-white #content form.style textarea:focus,
+.system-white #content form.style select:focus,
+.system-white #content #system .pagination strong { color: #FFFFFF; }
+
+.system-white #content mark,
+.system-white #content a.button-more:hover,
+.system-white #content form.style input[type="button"]:hover,
+.system-white #content #system .pagination strong { background-color: #444; }
+
+.system-white #content ins,
+.system-white #content form.style input:focus,
+.system-white #content form.style textarea:focus,
+.system-white #content form.style select:focus,
+.system-white #content form.style button:hover { background-color: #424242; }
+
+.system-white #content a.button-more,
+.system-white #content form.style button,
+.system-white #content form.style input.button,
+.system-white #content #system .item > .links a { background: #efefef; }
+
+.system-white #content pre,
+.system-white #content .box-content,
+.system-white #content .box-note,
+.system-white #content .box-info,
+.system-white #content .box-warning,
+.system-white #content .box-hint,
+.system-white #content .box-download,
+.system-white #content #system #comments .comment-head {
+	background-color: rgba(0,0,0,0.05);
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: none;
+}
+
+.system-white #content dl.separator dd,
+.system-white #content dl.separator dt:before,
+.system-white #content dl.separator dt:after { border-color: #efefef; }
+
+.system-white #content dl.separator dt:after { background: #999; }
+
+.system-white #content form.box fieldset,
+.system-white #content #system .author-box { border-color: rgba(0,0,0,0.1); }
+
+.system-white #content a.button-more,
+.system-white #content form.style button,
+.system-white #content form.style input.button,
+.system-white #content #system .item > .links a { background-image: url(../styles/white/images/tools/button_more.png); }
+
+.system-white #content ul.line > li,
+.system-white #content .comments-list > article,
+.system-white #content .wk-twitter-list article,
+.system-white #content ul.zoo-list > li,
+.system-white #content .zoo-comments-list > article { background-image: url(../styles/white/images/tools/list_line.png); }
+
+.system-white #content ul.line-icon > li,
+.system-white #content ul.line-icon > li:first-child { background-image: url(../styles/white/images/tools/list_line_icon.png); }
+
+.system-white #content ul.check > li { background-image: url(../styles/white/images/tools/list_check.png); }
+
+.system-white #content ul.zebra > li.odd,
+.system-white #content form.style input,
+.system-white #content form.style textarea,
+.system-white #content form.style select { background-image: url(../styles/white/images/tools/list_zebra.png); }
+
+.system-white #content ul.zebra > li:nth-of-type(odd) { background-image: url(../styles/white/images/tools/list_zebra.png); }
+
+.system-white #content table.zebra tbody td,
+.system-white #content table.zebra tbody tr:first-child td { border-color: rgba(0,0,0,0.1); }
+
+.system-white #content table.zebra tbody tr.odd { background-color: rgba(0,0,0,0.03); }
+.system-white #content table.zebra tbody tr:nth-of-type(odd) { background-color: rgba(0,0,0,0.03); }
+
+.system-white #content em.box { background-image: url(../styles/white/images/tools/em_box.png); }
+
+.system-white #content hr.dotted { background-image: url(../styles/white/images/tools/line_dotted.png); }
+
+.system-white #content .wk-twitter-single.image { background-image: url(../styles/white/images/widgetkit/bird.png); }
+
+.system-white #content .wk-twitter-bubbles .content,
+.system-white #content .wk-twitter .image { background-image: url(../styles/white/images/widgetkit/bubble.png); }
+
+.system-white #content.wk-twitter-bubbles .content:after { background-image: url(../styles/white/images/widgetkit/arrow.png); }
+
+/* Item */
+.system-white #content #system .item header time { background-image: url(../styles/white/images/system_time.png); }
+
+/* Pagination */
+.system-white #content #system .pagination a { background-image: url(../styles/white/images/pagination.png); }

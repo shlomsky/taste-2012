@@ -1,0 +1,29 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/base.css);
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+
+body { font: normal 14px/20px Arial, Helvetica, sans-serif; }
+
+mark,
+ins,
+pre { border-radius: 2px; }
+
+
+/* Useful Snippets
+----------------------------------------------------------------------------------------------------*/
+
+a:not([class]):active,
+a:not([class]):focus {
+	position: relative;
+	top: 1px;
+}
+
+a:not([class]):active > *,
+a:not([class]):focus > * {
+	position: relative;
+	top: -1px;
+}

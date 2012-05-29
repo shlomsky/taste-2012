@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+    font-family: 'SquadaOneRegular';
+    src: url('squadaone-regular-webfont.eot');
+    src: url('squadaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('squadaone-regular-webfont.woff') format('woff'),
+         url('squadaone-regular-webfont.ttf') format('truetype'),
+         url('squadaone-regular-webfont.svg#SquadaOneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

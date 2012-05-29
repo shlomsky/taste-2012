@@ -1,0 +1,33 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * RTL Style Sheet
+ */
+
+
+.wk-slideset-radiance .nav.text li {
+	margin-left: 0;
+	margin-right: 40px;
+}
+.wk-slideset-radiance .nav li:first-child { margin-right: 0; }
+
+.wk-slideset-radiance > div .prev {
+	right: -50px;
+	left: auto;
+	background-position: 0 -150px;
+}
+.wk-slideset-radiance > div .prev:hover { background-position: 0 -200px; }
+.wk-slideset-radiance > div .prev:active { background-position: 0 -250px; }
+.wk-slideset-radiance > div .next {
+	right: auto;
+	left: -50px;
+	background-position: 0 0;
+}
+.wk-slideset-radiance > div .next:hover { background-position: 0 -50px; }
+.wk-slideset-radiance > div .next:active { background-position: 0 -100px; }
+
+.wk-slideset-radiance .wk-content { 
+	margin-right: 0;
+	margin-left: 15px;
+	text-align: right;
+}

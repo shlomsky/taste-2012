@@ -1,0 +1,67 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* Widgetkit
+----------------------------------------------------------------------------------------------------*/
+
+/* Slideset */
+.wk-slideset-radiance,
+.wk-slideset-radiance > div {
+	background-position: 0 0;
+	padding: 15px 0;
+}
+.wk-slideset-radiance { padding-bottom: 0; }
+.wk-slideset-radiance > div { background-position: 0 100%; }
+
+.wk-slideset .set article h3 { margin: 0 0 4px 0; }
+
+/* Spotlight */
+.spotlight .overlay-default { background: rgba(255,255,255,0.3) url(../images/widgetkit/magnifier.png) 50% 50% no-repeat; }
+
+.spotlight .overlay,
+.spotlight .overlay a,
+.wk-slideshow .caption,
+.wk-slideshow .caption a {
+    color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+/* Lightbox */
+#lightbox-overlay { background-color: #000!important; }
+#lightbox-outer { box-shadow: 0 0 15px rgba(0,0,0,1.0); }
+
+#lightbox-title.lightbox-title-inside { color: #fff; }
+
+
+/* Widgetkit Twitter */
+.wk-twitter-single.image { background: url(../images/widgetkit/bird.png) 0 3px no-repeat; }
+
+.wk-twitter-list article { border: none; }
+.wk-twitter-list article:first-child { background: none; }
+
+.wk-twitter-bubbles .content,
+.wk-twitter .image {
+	border: none;
+	border-radius: 3px;
+	background: url(../images/widgetkit/bubble.png) 0 0 repeat;
+	box-shadow: none;
+}
+
+.wk-twitter-bubbles .content:after {
+	width: 18px;
+	background: url(../images/widgetkit/arrow.png) 0 0 no-repeat;
+}
+
+
+/* ZOO
+----------------------------------------------------------------------------------------------------*/
+
+ul.zoo-list > li,
+.zoo-comments-list > article { border: none;}
+
+ul.zoo-list > li:first-child,
+.zoo-comments-list > article:first-child  {
+    margin-top: 5px;
+    padding-top: 5px;
+    background: none;
+}

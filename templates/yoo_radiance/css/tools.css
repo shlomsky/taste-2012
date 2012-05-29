@@ -1,0 +1,247 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/tools.css);
+
+
+/* Buttons (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more,
+#system .item > .links a {
+	padding: 3px 10px;
+	border-radius: 3px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+a.button-more:active { box-shadow: inset 0 2px 2px rgba(0,0,0,0.2); }
+
+a.button-more,
+form.style button,
+form.style input.button,
+#system .item > .links a {
+	background-color: transparent;
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+
+/* Images and Objects (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+img.border-box { border: 1px solid rgba(0,0,0,0.3); }
+
+
+/* Lists and Tables (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+/* List Line */
+ul.line > li:first-child { background: none; }
+
+ul.line > li,
+.comments-list > article,
+.wk-twitter-list article,
+ul.zoo-list > li,
+.zoo-comments-list > article {
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+/* List Line Icon */
+ul.line-icon > li { padding-left: 16px; }
+
+ul.line-icon > li,
+ul.line-icon > li:first-child {
+	margin-top: 2px;
+	padding-top: 2px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+/* List Check */
+ul.check > li {
+	padding: 4px 0 0 30px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+/* List Zebra */
+ul.zebra > li { border-radius: 2px; }
+
+ul.zebra > li.odd,
+form.style input,
+form.style textarea,
+form.style select {
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+ul.zebra > li:nth-of-type(odd) {
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+/* Tables */
+table.zebra tbody td {
+	border-bottom-style: solid; 
+	border-bottom-width: 1px;
+}
+table.zebra tbody tr:first-child td {
+	border-top-style: solid; 
+	border-top-width: 1px;
+}
+
+
+/* Definition Lists
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+/* border code because of RTL */
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+}
+
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+}
+
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -3px;
+	width: 5px;
+	height: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius:6px;
+}
+
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+
+
+/* Text
+----------------------------------------------------------------------------------------------------*/
+
+/* Inline Text Box */
+em.box {
+	padding: 0 2px;
+	border: none;
+	border-radius: 2px;
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+/* Dotted Horizontal Rule */
+hr.dotted {
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+
+/* Boxes
+----------------------------------------------------------------------------------------------------*/
+
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download { border-radius: 3px; }
+
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.box-info { background-image: url(../images/tools/box_info.png); }
+.box-warning { background-image: url(../images/tools/box_warning.png); }
+.box-hint { background-image: url(../images/tools/box_hint.png); }
+.box-download { background-image: url(../images/tools/box_download.png); }
+
+
+/* Forms (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+form.box fieldset {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+}
+
+form.style input,
+form.style textarea,
+form.style select,
+form.style button,
+form.style input[type="button"] {
+	padding: 4px;
+	border: none;
+	border-radius: 3px;
+	background-color: transparent;
+	outline: none;
+}
+
+
+/* Mobile Switcher (Needed for Mobile)
+----------------------------------------------------------------------------------------------------*/
+
+.mobile-switcher { border-radius: 3px; }
+
+
+/* Social Icons Special
+----------------------------------------------------------------------------------------------------*/
+
+.social-icons {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.social-icons li,
+.social-icons li a { float: left; }
+
+.social-icons li {
+	margin: 0 0 0 6px;
+	line-height: 39px;
+}
+
+.social-icons li a {
+	display: inline-block;
+	overflow: hidden;
+	width: 36px;
+	height: 38px;
+	background: url(../images/tools/icons_social.png) 0 0 no-repeat;
+}
+
+.social-icons .twitter a { background-position: 0 0; }
+.social-icons .twitter a:hover { background-position: 0 -40px; }
+
+.social-icons .facebook a { background-position: 0 -80px; }
+.social-icons .facebook a:hover { background-position: 0 -120px; }
+
+.social-icons .youtube a { background-position: 0 -160px; }
+.social-icons .youtube a:hover { background-position: 0 -200px; }
+
+.social-icons .vimeo a { background-position: 0 -240px; }
+.social-icons .vimeo a:hover { background-position: 0 -280px; }

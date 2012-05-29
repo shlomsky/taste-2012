@@ -1,0 +1,71 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a:hover {
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+a.button-more:hover {
+	-webkit-transition: background 0.25s ease-in-out;
+	-moz-transition: background 0.25s ease-in-out;
+	-o-transition: background 0.25s ease-in-out;
+	-ms-transition: background 0.25s ease-in-out;
+	transition: background 0.25s ease-in-out;
+}
+
+form.style input,
+form.style select,
+form.style textarea,
+form.style button:hover,
+form.style input[type="button"]:hover,
+form.style input.button:hover,
+form.style #submit:hover,
+.mobile-switcher {
+	-webkit-transition:
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-moz-transition:
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-o-transition:
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	-ms-transition:
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+	transition:
+		color 0.25s ease-in-out,
+		background 0.25s ease-in-out;
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#searchbox .results li.result.selected {
+	-webkit-transition: 
+		color 0.2s ease-in-out,
+		background 0.2s ease-in-out;
+	-moz-transition:
+		color 0.2s ease-in-out,
+		background 0.2s ease-in-out;
+	-o-transition:
+		color 0.2s ease-in-out,
+		background 0.2s ease-in-out;
+	-ms-transition:
+		color 0.2s ease-in-out,
+		background 0.2s ease-in-out;
+	transition:
+		color 0.2s ease-in-out,
+		background 0.2s ease-in-out;
+}

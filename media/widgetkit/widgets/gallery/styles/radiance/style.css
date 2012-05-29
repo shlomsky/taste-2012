@@ -1,0 +1,110 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Widgetkit Slideshow: Radiance Style
+ */
+
+/* Screen
+----------------------------------------------------------------------------------------------------*/
+
+/* Frame */
+.wk-slideshow-radiance > div {
+	position: relative;
+	border-radius: 8px;
+	background: rgba(0,0,0,0.5);
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+/* Shadow */
+.wk-slideshow-radiance > div:before {
+	content: "";
+	position: absolute;
+	bottom: -40px;
+	left: -10px;
+	right:-10px;
+	height: 76px;
+	background: url(images/shadow.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+/* Caption
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-radiance .caption {
+    right: 30px;
+    bottom: 30px;
+    left: auto;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.6);
+}
+
+.wk-slideshow-radiance .caption h1,
+.wk-slideshow-radiance .caption h2,
+.wk-slideshow-radiance .caption h3 { margin: 0 0 5px 0; }
+
+.wk-slideshow-radiance .caption p { margin: 0; }
+
+
+/* Navigation
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-radiance .nav {
+	position: relative;
+	bottom: 35px;
+	text-align: center;
+}
+
+.wk-slideshow-radiance .nav li {
+	display: inline-block;
+	margin-left: 0;
+}
+
+.wk-slideshow-radiance .nav span {
+	width: 15px;
+	height: 15px;
+	background: url(images/nav.png) 0 0 no-repeat;
+	overflow: hidden;
+}
+.wk-slideshow-radiance .nav span:hover { background-position: 0 -20px; }
+.wk-slideshow-radiance .nav span:active { background-position: 0 -40px; }
+.wk-slideshow-radiance .nav .active span { background-position: 0 -60px; }
+
+
+/* Buttons
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-radiance > div { position: relative; }
+
+.wk-slideshow-radiance > div:hover .next,
+.wk-slideshow-radiance > div:hover .prev {
+	top: 50%;
+	width: 35px;
+	height: 35px;
+	margin-top: -20px;
+	background: url(images/buttons.png) 0 0 no-repeat;
+}
+.wk-slideshow-radiance > div:hover .prev {
+	left: 40px;
+	background-position: 0 0;
+}
+.wk-slideshow-radiance > div:hover .prev:hover { background-position: 0 -40px; }
+.wk-slideshow-radiance > div:hover .prev:active { background-position: 0 -80px; }
+.wk-slideshow-radiance > div:hover .next {
+	right: 40px;
+	background-position: 0 -120px;
+}
+.wk-slideshow-radiance > div:hover .next:hover { background-position: 0 -160px; }
+.wk-slideshow-radiance > div:hover .next:active { background-position: 0 -200px; }
+
+
+/* IE7 Fixes */
+.wk-ie7 .wk-slideshow-radiance > div,
+.wk-ie8 .wk-slideshow-radiance > div { background: #000; }
+.wk-ie7 .wk-slideshow-radiance .nav li,
+.wk-ie7 .wk-slideshow-radiance .nav span { display: inline; }
+.wk-ie7 .wk-slideshow-radiance .nav span { zoom: 1; }

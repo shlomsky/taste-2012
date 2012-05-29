@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+    font-family: 'FugazOneRegular';
+    src: url('fugazone-regular-webfont.eot');
+    src: url('fugazone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fugazone-regular-webfont.woff') format('woff'),
+         url('fugazone-regular-webfont.ttf') format('truetype'),
+         url('fugazone-regular-webfont.svg#FugazOneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+    font-family: 'PlayRegular';
+    src: url('play-regular-webfont.eot');
+    src: url('play-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('play-regular-webfont.woff') format('woff'),
+         url('play-regular-webfont.ttf') format('truetype'),
+         url('play-regular-webfont.svg#PlayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

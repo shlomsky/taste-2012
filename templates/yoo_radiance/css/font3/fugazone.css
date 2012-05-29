@@ -1,0 +1,11 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span {
+	font-family: 'FugazOneRegular', sans-serif;
+	font-size: 14px;
+	line-height: 32px;
+}
+
+.menu-dropdown .level1 .level1 span.title { line-height: 22px; }
+.menu-dropdown .level1 .level1 span.subtitle { margin-top: -5px; }
