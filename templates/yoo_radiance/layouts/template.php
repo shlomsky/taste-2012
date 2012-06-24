@@ -27,6 +27,10 @@ include($this['path']->path('layouts:template.config.php'));
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <body id="page" class="page <?php echo $this['config']->get('body_classes'); ?>" data-config='<?php echo $this['config']->get('body_config','{}'); ?>'>
+	
+	<div id="bg">
+		<img src="/images/bg.jpg">
+	</div>
 
 	<div id="page-bg">
 
